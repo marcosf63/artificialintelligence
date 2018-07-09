@@ -81,6 +81,7 @@ class simple_graph_jar_agent(simple_tree_jar_agent):
                     self.frontier.append(c_node)
                     self.frontier_log[key] = True
                 
+# Versao Busca Uniforme - Marcos Oliveira
 class simple_graph_jar_agent_busca_uniforme(simple_tree_jar_agent):
     def __init__(self):
         super().__init__()
